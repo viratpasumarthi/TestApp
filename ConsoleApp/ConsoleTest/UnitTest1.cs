@@ -9,7 +9,7 @@ namespace ConsoleTest
         [TestMethod]
         public void TestMethod1()
         {
-            Console.Write("Test Pass");
+            Console.Write("Test Passed");
         }
     }
 }
