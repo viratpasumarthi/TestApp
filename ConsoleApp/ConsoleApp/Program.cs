@@ -4,9 +4,11 @@ namespace ConsoleApp
 {
     class Program
     {
+        public string mystring = "Hello World";
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World1!");
+            
+            Console.WriteLine(Program.mystring);
             Console.ReadLine();
         }
     }
